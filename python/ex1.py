@@ -12,7 +12,7 @@ print("Maior elemento: {}".format(maior_elemento))
 print("Usando max")
 max_elemento = max(lista)
 print("Maior elmento: {}".format(max_elemento))
-print("_" * 30)
+print("-=" * 30)
 
 print("b) imprima o menor elemento ")
 menor_elemento = 0
@@ -23,7 +23,7 @@ print("Menor elemento: {}".format(menor_elemento))
 print("Usando min")
 min_elemento = min(lista)
 print("Menor elemento: {}".format(min_elemento))
-print("_" * 30)
+print("-=" * 30)
 
 print("c) imprima os numeros pares")
 lista_pares = []
@@ -32,17 +32,17 @@ for pares in lista:
         lista_pares.append(pares)
         lista_pares.sort()
 print("Números pares encontrados na lista: {}".format(lista_pares))      
-print("_" * 30)
+print("-=" * 30)
 
 print("d) imprima o numero de ocorrências do primeiro elemento da lista ")
 ocorrencias = lista.count(12)
 print("Ocorrências do primeiro elemento:  {} ".format(ocorrencias))
-print("_" * 30)
+print("-=" * 30)
 
 print("e) imprima a media dos elementos ")
 media = sum(lista)/len(lista)
 print("Média da lista : ", media) 
-print("_" * 30)
+print("-=" * 30)
 
 print("f) imprima a soma dos elementos de valor negativo ")
 soma_negativo = 0
@@ -50,4 +50,4 @@ for n in lista:
     if n < 0:
         soma_negativo += n
 print("Soma dos elementos negativos é igual a : {}".format(soma_negativo))
-print("_" * 30)
+print("-=" * 30)

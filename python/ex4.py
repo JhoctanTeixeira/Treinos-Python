@@ -9,6 +9,6 @@ pessoas = dict()
 pessoas['nome'] = str(input('Nome: '))
 pessoas['idade'] = int(input('idade: '))
 pessoas['cidade'] = str(input('cidade: '))
-print("_" * 30)
+print("-=" * 30)
 for k, v in pessoas.items():
     print(f'{k}: {v}')
