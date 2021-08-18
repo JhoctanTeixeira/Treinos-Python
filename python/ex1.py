@@ -31,17 +31,17 @@ for pares in lista:
     if pares % 2 == 0:
         lista_pares.append(pares)
         lista_pares.sort()
-print("Numeros pares encontrados na lista: {}".format(lista_pares))      
+print("Números pares encontrados na lista: {}".format(lista_pares))      
 print("_" * 30)
 
-print("d) imprima o numero de ocorrencias do primeiro elemento da lista ")
+print("d) imprima o numero de ocorrências do primeiro elemento da lista ")
 ocorrencias = lista.count(12)
-print("Ocorrencias do primeiro elemento:  {} ".format(ocorrencias))
+print("Ocorrências do primeiro elemento:  {} ".format(ocorrencias))
 print("_" * 30)
 
 print("e) imprima a media dos elementos ")
 media = sum(lista)/len(lista)
-print("Media da lista : ", media) 
+print("Média da lista : ", media) 
 print("_" * 30)
 
 print("f) imprima a soma dos elementos de valor negativo ")
@@ -49,5 +49,5 @@ soma_negativo = 0
 for n in lista:
     if n < 0:
         soma_negativo += n
-print("Soma dos elmentos negativos e igual a : {}".format(soma_negativo))
+print("Soma dos elementos negativos é igual a : {}".format(soma_negativo))
 print("_" * 30)
