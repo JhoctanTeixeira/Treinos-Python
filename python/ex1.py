@@ -1,8 +1,8 @@
-# print("1. Dada a lista = [12, -2, 4, 8, 29, 45, 78, 36, -17, 2, 12, 8, 3, 3, -52] faca um programa em Python que: ")
+print("1. Dada a lista = [12, -2, 4, 8, 29, 45, 78, 36, -17, 2, 12, 8, 3, 3, -52] faca um programa em Python que:\n")
 
 lista = [12, -2, 4, 8, 29, 45, 78, 36, -17, 2, 12, 8, 3, 3, -52] 
 
-print("a) imprima o maior elemento ")
+print("a) imprima o maior elemento \n")
 
 maior_elemento = 0
 for num in lista:
@@ -14,7 +14,7 @@ max_elemento = max(lista)
 print("Maior elmento: {}".format(max_elemento))
 print("-=" * 30)
 
-print("b) imprima o menor elemento ")
+print("b) imprima o menor elemento \n")
 menor_elemento = 0
 for num in lista:
     if  (menor_elemento == 0 or num < menor_elemento):
@@ -25,7 +25,7 @@ min_elemento = min(lista)
 print("Menor elemento: {}".format(min_elemento))
 print("-=" * 30)
 
-print("c) imprima os numeros pares")
+print("c) imprima os numeros pares \n")
 lista_pares = []
 for pares in lista:
     if pares % 2 == 0:
@@ -34,17 +34,17 @@ for pares in lista:
 print("Números pares encontrados na lista: {}".format(lista_pares))      
 print("-=" * 30)
 
-print("d) imprima o numero de ocorrências do primeiro elemento da lista ")
+print("d) imprima o numero de ocorrências do primeiro elemento da lista \n ")
 ocorrencias = lista.count(12)
 print("Ocorrências do primeiro elemento:  {} ".format(ocorrencias))
 print("-=" * 30)
 
-print("e) imprima a media dos elementos ")
+print("e) imprima a media dos elementos \n")
 media = sum(lista)/len(lista)
-print("Média da lista : ", media) 
+print("Média da lista: {:.1f}".format(media)) 
 print("-=" * 30)
 
-print("f) imprima a soma dos elementos de valor negativo ")
+print("f) imprima a soma dos elementos de valor negativo \n")
 soma_negativo = 0
 for n in lista:
     if n < 0:
