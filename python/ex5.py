@@ -3,8 +3,8 @@ pessoa = dict()
 while True:
     pessoa.clear()
     pessoa['nome'] = str(input('Nome: '))
-    pessoa['idade'] = int(input('idade: '))
-    pessoa['cidade'] = str(input('cidade: '))
+    pessoa['idade'] = int(input('Idade: '))
+    pessoa['cidade'] = str(input('Cidade: '))
     todas_pessoas.append(pessoa.copy())
     while True:
         resp = str(input('Quer continuar? [S/N] ')).upper()[0]
